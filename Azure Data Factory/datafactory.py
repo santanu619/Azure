@@ -1,3 +1,11 @@
+'''
+@Author: Santanu Mohapatra
+@Date: 10/07/2021
+@Last Modified by: Santanu Mohapatra
+@Last Modified Time: 20:30 PM
+@Title: Perform Azure Data Factory
+'''
+
 from azure.identity import ClientSecretCredential 
 from azure.mgmt.resource import ResourceManagementClient
 from azure.mgmt.datafactory import DataFactoryManagementClient

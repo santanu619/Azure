@@ -1,8 +1,3 @@
-import pyodbc 
-import logging
-import textwrap
-from decouple import config
-
 '''
 @Author: Santanu Mohapatra
 @Date: 08/07/2021
@@ -10,6 +5,11 @@ from decouple import config
 @Last Modified Time: 20:30 PM
 @Title: Perform CRUD operations with pyodbc in azure
 '''
+
+import pyodbc 
+import logging
+import textwrap
+from decouple import config
 
 class CRUD_SQL_Database:
     '''

@@ -1,1 +1,44 @@
-This repository contains all the programs related to microsoft azure such as blob storage, SQL Database and azure data factory and all of it's necessary packages.
+Azure Blob Storage
+  Perform basic upload of data on Azure blob Storage
+  Create a new Blob Storage in Azure:
+    From Azure Home Page Click on Create a resource and search for Storage Accounts
+    Click on create a new account
+    Enter the basic information required to create a storage account in the Basic Tab
+    Click on Review+Create, wait until vaidation is over and then cllick on Create
+  References:
+    https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?tabs=azure-portal
+    https://www.youtube.com/watch?v=_Xr_SxDeub4
+  Azure Data Lake Storage
+    Perform basic data upload on Azure Data Lake Storage
+    Create a Data Lake Storage Account
+  From Azure Home Page Click on Create a resource and search for Storage Accounts
+    Click on create a new account
+    Enter the basic information required to create a storage account in the Basic Tab
+  Go to Advanced tab and enable the Heirarchichal Namespace to make it a Data Lake Storage Gen2
+    Click on Review+Create, wait until vaidation is over and then cllick on Create
+  Reference:
+    https://docs.microsoft.com/en-us/learn/modules/upload-data-to-azure-data-lake-storage/
+    https://docs.microsoft.com/en-us/learn/paths/data-processing-with-azure-adls/
+Azure SQL Database
+  Perform basic operation on SQL Database
+  Create a SQL Database in Azure
+    From Azure Home page click on create a resource
+    Search for SQL Database and click on create
+    Fill in all the required details under basic tab
+    Create a new serve by entering a new server name, admin id and password
+    Select the pricing tier by clicking on Compute + Storage
+    Click on review + create, wait till validation is over and click on Create
+  References:
+    https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?tabs=azure-portal
+Azure Data Factory
+  Perform Copy Data from one Container to another using Data Factory
+  Prerequisites
+    Azure Storage Account
+    An Application in Azure Active Directory to get the tenant id, client id and client key
+  Create a data factory:
+    From Azure Home Portal click on create a resource and search for Data Factory and click on create
+  File on the basic details in the basic tab
+  Click on review + create, wait until validation is over and click on create
+  References:
+    https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-python
+    https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-portal
